@@ -1,0 +1,16 @@
+/bazel-out
+/bazel-bin
+/bazel-genfiles
+/bazel-metals-playground*
+/bazel-testlogs
+*.pyc
+__pycache__/
+
+
+# metals (Scala language server)
+/.metals/
+metals.log
+metals.h2.db
+
+# Bloopm Build Server
+.bloop/

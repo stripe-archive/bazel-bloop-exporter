@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.stripe.protos;
+
+import "google/protobuf/wrappers.proto";
+
+message Foo {
+    string test = 1;
+}
+
+message ImportedFoo {
+    google.protobuf.StringValue test = 1;
+    google.protobuf.Int64Value some_num = 2;
+}

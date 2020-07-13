@@ -1,0 +1,8 @@
+load("//tools/build_rules:scala.bzl", "scala_library", "scala_macro_library", "scala_binary", "scala_test", "scala_library_suite", "scala_test_suite", "scala_doc")
+load("//tools/build_rules:thrift.bzl", "thrift_library")
+load("@io_bazel_rules_scala//twitter_scrooge:twitter_scrooge.bzl", "scrooge_scala_library")
+load("//tools/build_rules:java.bzl",
+    "java_binary",
+    "java_library",
+    "java_test",
+)
